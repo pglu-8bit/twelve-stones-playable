@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#7a1b32"/>
+      <stop offset="60%" stop-color="#3b0a17"/>
+      <stop offset="100%" stop-color="#20040a"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0b3"/>
+      <stop offset="40%" stop-color="#ffc83d"/>
+      <stop offset="100%" stop-color="#b36a00"/>
+    </linearGradient>
+    <radialGradient id="stoneIvory" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d6c59b"/>
+    </radialGradient>
+    <radialGradient id="stoneSindoor" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ff8a5c"/>
+      <stop offset="50%" stop-color="#d1281c"/>
+      <stop offset="100%" stop-color="#6b0a05"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background rounded app icon -->
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <rect x="18" y="18" width="476" height="476" rx="92" fill="none" stroke="url(#gold)" stroke-width="7" opacity="0.85"/>
+
+  <!-- Sacred Geometry / Mandala Board -->
+  <g transform="translate(256, 256)">
+    <circle r="170" fill="none" stroke="url(#gold)" stroke-width="4" opacity="0.45"/>
+    <circle r="120" fill="none" stroke="url(#gold)" stroke-width="3" stroke-dasharray="8 6" opacity="0.6"/>
+    <circle r="70" fill="none" stroke="url(#gold)" stroke-width="3" opacity="0.75"/>
+
+    <line x1="-170" y1="0" x2="170" y2="0" stroke="url(#gold)" stroke-width="3.5" opacity="0.5"/>
+    <line x1="0" y1="-170" x2="0" y2="170" stroke="url(#gold)" stroke-width="3.5" opacity="0.5"/>
+    <line x1="-120" y1="-120" x2="120" y2="120" stroke="url(#gold)" stroke-width="3" opacity="0.4"/>
+    <line x1="-120" y1="120" x2="120" y2="-120" stroke="url(#gold)" stroke-width="3" opacity="0.4"/>
+
+    <!-- Central Lotus Petals -->
+    <g>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" fill="#ffd166" opacity="0.95"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(45)" fill="#ffb627" opacity="0.85"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(90)" fill="#ffd166" opacity="0.95"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(135)" fill="#ffb627" opacity="0.85"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(180)" fill="#ffd166" opacity="0.95"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(225)" fill="#ffb627" opacity="0.85"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(270)" fill="#ffd166" opacity="0.95"/>
+      <path d="M0 -32 C14 -14 16 12 0 28 C-16 12 -14 -14 0 -32 Z" transform="rotate(315)" fill="#ffb627" opacity="0.85"/>
+      <circle r="14" fill="#ffc83d" stroke="#ffffff" stroke-width="2.5"/>
+    </g>
+
+    <!-- Four Primary Sacred Stones -->
+    <g transform="translate(0, -120)">
+      <circle r="27" fill="#000" opacity="0.4" cx="2" cy="4"/>
+      <circle r="26" fill="url(#stoneIvory)" stroke="#ffc83d" stroke-width="3.5"/>
+      <circle r="7" fill="#c8321f"/>
+    </g>
+    <g transform="translate(0, 120)">
+      <circle r="27" fill="#000" opacity="0.4" cx="2" cy="4"/>
+      <circle r="26" fill="url(#stoneSindoor)" stroke="#ffc83d" stroke-width="3.5"/>
+      <circle r="7" fill="#ffe9a8"/>
+    </g>
+    <g transform="translate(120, 0)">
+      <circle r="27" fill="#000" opacity="0.4" cx="2" cy="4"/>
+      <circle r="26" fill="url(#stoneIvory)" stroke="#ffc83d" stroke-width="3.5"/>
+      <circle r="7" fill="#c8321f"/>
+    </g>
+    <g transform="translate(-120, 0)">
+      <circle r="27" fill="#000" opacity="0.4" cx="2" cy="4"/>
+      <circle r="26" fill="url(#stoneSindoor)" stroke="#ffc83d" stroke-width="3.5"/>
+      <circle r="7" fill="#ffe9a8"/>
+    </g>
+  </g>
+</svg>
